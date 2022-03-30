@@ -1,0 +1,10 @@
+.card__description {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 1.1875rem;
+    line-height: 1.2;
+    text-align: justify;
+}
+
+.card__description p {
+    font-family: 'Lexend Deca', sans-serif;
+}
