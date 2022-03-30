@@ -1,0 +1,5 @@
+.card__luxury {
+    background-color: hsl(179, 100%, 13%);
+    display: flex;
+    flex-direction: column;
+}

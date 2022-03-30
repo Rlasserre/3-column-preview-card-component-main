@@ -1,0 +1,5 @@
+.card__suv {
+    background-color: hsl(184, 100%, 22%);
+    display: flex;
+    flex-direction: column;
+}
