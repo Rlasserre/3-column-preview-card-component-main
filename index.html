@@ -15,15 +15,12 @@
     rel="stylesheet">
   <link rel="stylesheet" href="./css/reset.css">
   <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./css/style.css">
   <link rel="stylesheet" href="./css/atribution.css">
-  <link rel="stylesheet" href="./css/main.css">
-  <link rel="stylesheet" href="./css/footer.css">
   <link rel="stylesheet" href="./css/cards.css">
-  <link rel="stylesheet" href="./css/card/card-button.css">
-  <link rel="stylesheet" href="./css/card/card-sedan.css">
-  <link rel="stylesheet" href="./css/card/card-suv.css">
-  <link rel="stylesheet" href="./css/card/card-luxury.css">
   <link rel="stylesheet" href="./css/card/card-title.css">
+  <link rel="stylesheet" href="./css/card/card-description.css">
+  <link rel="stylesheet" href="./css/card/card-button.css">
   <link rel="stylesheet" href="./css/card/card-description.css">
 
 
@@ -33,34 +30,32 @@
 </head>
 
 <body>
-  <main>
-    <nav>
-      <ul>
-        <li>
-          <h2>Sedans</h2>
-          <p>Choose a sedan for its affordability and excellent fuel economy. Ideal for
-            cruising in the city
-            or on your next road trip.</p>
-          <button>Learn More</button>
-        </li>
-        <li>
-          <h2>SUVs</h2>
-          <p>Take an SUV for its spacious interior, power, and versatility. Perfect for your
-            next family vacation
-            and off-road adventures.</p>
-          <button>Learn More</button>
-        </li>
-        <li>
-          <h2>Luxury</h2>
-          <p>Cruise in the best car brands without the bloated prices. Enjoy the enhanced
-            comfort of a luxury
-            rental and arrive in style.</p>
-          <button>Learn More</button>
-        </li>
-      </ul>
-    </nav>
+  <main class="main">
+    <section class="cards">
+      <div class="card">
+        <h2 class="card__title">Sedans</h2>
+        <p class="card__description">Choose a sedan for its affordability and excellent fuel economy. Ideal for
+          cruising in the city
+          or on your next road trip.</p>
+        <button class="card__button">Learn More</button>
+      </div>
+      <div class="card">
+        <h2 class="card__title">SUVs</h2>
+        <p class="card__description">Take an SUV for its spacious interior, power, and versatility. Perfect for your
+          next family vacation
+          and off-road adventures.</p>
+        <button class="card__button">Learn More</button>
+      </div>
+      <div class="card">
+        <h2 class="card__title">Luxury</h2>
+        <p class="card__description">Cruise in the best car brands without the bloated prices. Enjoy the enhanced
+          comfort of a luxury
+          rental and arrive in style.</p>
+        <button class="card__button">Learn More</button>
+      </div>
+    </section>
   </main>
-  <footer>
+  <footer class="footer">
     <section class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
       Coded by <a href="#">Rafael Lasserre</a>.
