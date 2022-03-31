@@ -1,9 +1,0 @@
-.card__suv {
-    background-color: hsl(184, 100%, 22%);
-    background-image: url(../../images/icon-suvs.svg);
-    background-repeat: no-repeat;
-    display: flex;
-    flex-flow: row wrap;
-    height: 25rem;
-    justify-content: center;
-}
