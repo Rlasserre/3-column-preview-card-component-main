@@ -2,4 +2,5 @@
     color: hsla(0, 0%, 100%, 0.75);
     font-family: 'Big Shoulders Display', cursive;
     font-size: 35px;
+    text-transform: uppercase;
 }

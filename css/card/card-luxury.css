@@ -1,0 +1,11 @@
+.card__luxury {
+    align-items: left;
+    background-color: hsl(179, 100%, 13%);
+    background-image: url(../../images/icon-luxury.svg);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    height: 65%;
+    justify-content: space-around;
+    padding: 2rem;
+}
