@@ -3,3 +3,13 @@
   font-family: 'Montserrat', sans-serif;
   font-size: 15px;
 }
+
+
+@media(max-width: 375px) {
+
+  .attribution {
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+  }
+}

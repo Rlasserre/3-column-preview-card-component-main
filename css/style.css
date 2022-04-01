@@ -2,7 +2,6 @@
   align-items: center;
   background: hsl(0, 0%, 95%);
   display: flex;
-  height: 95vh;
   justify-content: center;
   padding-left: 20%;
   padding-right: 20%;
@@ -13,4 +12,17 @@
   background: hsl(0, 0%, 95%);
   display: flex;
   justify-content: center;
+}
+
+
+@media(max-width: 375px) {
+
+  .main {
+    padding: 0 5% 0 5%;
+    height: 100vh;
+  }
+
+  .footer {
+    height: auto;
+  }
 }

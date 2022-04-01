@@ -1,7 +1,13 @@
 .card__description {
-    color: hsla(0, 0%, 100%, 0.75);
-    font-family: 'Lexend Deca', sans-serif;
-    font-size: 15px;
-    line-height: 20px;
-    margin-bottom: 6rem;
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 15px;
+  line-height: 20px;
+  margin-bottom: 6rem;
+}
+
+@media (max-width: 375px) {
+  .card__description {
+    margin-bottom: 2rem;
+  }
 }
