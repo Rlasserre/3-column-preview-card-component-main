@@ -1,11 +1,4 @@
 .card__suvs {
-    align-items: left;
     background-color: hsl(184, 100%, 22%);
     background-image: url(../../images/icon-suvs.svg);
-    background-repeat: no-repeat;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    height: 65%;
-    padding: 2rem;
 }

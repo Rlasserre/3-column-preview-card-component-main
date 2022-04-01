@@ -1,0 +1,10 @@
+.button {
+  background-color: hsl(0, 0%, 95%);
+  border-style: hidden;
+  border-radius: 25px;
+  cursor: pointer;
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 15px;
+  padding: 0.8rem 1.5rem;
+  width: fit-content;
+}

@@ -1,11 +1,4 @@
 .card__sedan {
-    align-items: left;
     background-color: hsl(31, 77%, 52%);
     background-image: url(../../images/icon-sedans.svg);
-    background-repeat: no-repeat;
-    display: flex;
-    flex-direction: column;
-    height: 65%;
-    justify-content: space-around;
-    padding: 2rem;
 }

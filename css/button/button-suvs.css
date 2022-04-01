@@ -1,0 +1,10 @@
+.button__suvs {
+    color: hsl(184, 100%, 22%);
+}
+
+.button__suvs:hover {
+    background-color: hsl(184, 100%, 22%);
+    border-color: hsl(0, 0%, 95%);
+    border-style: solid;
+    color: hsl(0, 0%, 95%);
+}

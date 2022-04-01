@@ -1,0 +1,10 @@
+.button__sedan {
+    color: hsl(31, 77%, 52%);
+}
+
+.button__sedan:hover {
+    background-color: hsl(31, 77%, 52%);
+    border-color: hsl(0, 0%, 95%);
+    border-style: solid;
+    color: hsl(0, 0%, 95%);
+}
